@@ -40,6 +40,16 @@ public class Demo1NameApplication {
                 "%n-hot reload & project rebuild on CTRL + S%n%n" +
                 "%n-------------------------------------------");
 
+        /* NOTE ON TESTS
+        * Problem: spring.profiles.default=dev (or prod) doesn't work as expected
+        * Tests are failed (also with Maven test) if the ective profile is not set DIRECTLY because
+        * values from application-prod or -dev are not resolved.
+        *
+        * For using Maven goals I have created new Run Configuration in Maven view for the test goal,
+        *  where I added -Dspring.profiles.active=prod. then you double click this configuration.
+        *  For package goal or others further in hierarchy you must create a new Run Configuration
+        * */
+
 
        /* ----------------------- ACTUATOR INFO ------------------------------------------------
        Actuator endpoints let you monitor and interact with your application. Spring Boot includes a number of built-in endpoints and lets you add your own.

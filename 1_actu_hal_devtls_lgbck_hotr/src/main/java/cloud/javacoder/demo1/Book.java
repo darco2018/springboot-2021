@@ -34,7 +34,4 @@ public class Book {
                 '}';
     }
 
-    public int getNumberOfSides() {
-        return numOfSides;
-    }
 }

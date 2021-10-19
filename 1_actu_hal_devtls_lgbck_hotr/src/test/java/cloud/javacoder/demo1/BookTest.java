@@ -8,11 +8,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class BookTest {
 
     @Test
-    void shouldHaveFourSides() {
+    void shouldReturnAuthor() {
         Book book = new Book(12L, "title1", "John");
 
-        int numberOfSides = book.getNumberOfSides();
-        Assertions.assertEquals(4, numberOfSides);
+        String author = book.getAuthor();
+        Assertions.assertEquals("John", author);
 
     }
 }

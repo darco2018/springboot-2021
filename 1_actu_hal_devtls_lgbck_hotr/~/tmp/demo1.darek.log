@@ -1,0 +1,22 @@
+2020-01-04 18:24:15.484  INFO 6809 --- [main] c.javacoder.demo1.Demo1NameApplication   : Starting Demo1NameApplication on lapt with PID 6809 (/home/darek/IdeaProjects/demo1/target/classes started by darek in /home/darek/IdeaProjects/demo1)
+2020-01-04 18:24:15.495  INFO 6809 --- [main] c.javacoder.demo1.Demo1NameApplication   : No active profile set, falling back to default profiles: default
+2020-01-04 18:24:16.941  INFO 6809 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 18:24:16.956  INFO 6809 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 18:24:16.956  INFO 6809 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 18:24:17.034  INFO 6809 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 18:24:17.034  INFO 6809 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1402 ms
+2020-01-04 18:24:17.252  INFO 6809 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 18:24:17.474  INFO 6809 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 18:24:17.478  INFO 6809 --- [main] c.javacoder.demo1.Demo1NameApplication   : Started Demo1NameApplication in 2.724 seconds (JVM running for 3.317)
+2020-01-04 18:25:43.861  INFO 6809 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 18:25:46.347  INFO 6888 --- [main] c.javacoder.demo1.Demo1NameApplication   : Starting Demo1NameApplication on lapt with PID 6888 (/home/darek/IdeaProjects/demo1/target/classes started by darek in /home/darek/IdeaProjects/demo1)
+2020-01-04 18:25:46.378  INFO 6888 --- [main] c.javacoder.demo1.Demo1NameApplication   : No active profile set, falling back to default profiles: default
+2020-01-04 18:25:47.808  INFO 6888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 18:25:47.823  INFO 6888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 18:25:47.824  INFO 6888 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 18:25:47.898  INFO 6888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 18:25:47.898  INFO 6888 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1348 ms
+2020-01-04 18:25:48.143  INFO 6888 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 18:25:48.342  INFO 6888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 18:25:48.346  INFO 6888 --- [main] c.javacoder.demo1.Demo1NameApplication   : Started Demo1NameApplication in 2.6 seconds (JVM running for 3.19)
+2020-01-04 18:26:19.350  INFO 6888 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

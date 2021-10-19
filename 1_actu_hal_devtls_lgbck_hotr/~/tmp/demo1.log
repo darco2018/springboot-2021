@@ -1,0 +1,11 @@
+2020-01-04 18:20:42.290  INFO 6664 --- [main] c.javacoder.demo1.Demo1NameApplication   : Starting Demo1NameApplication on lapt with PID 6664 (/home/darek/IdeaProjects/demo1/target/classes started by darek in /home/darek/IdeaProjects/demo1)
+2020-01-04 18:20:42.298  INFO 6664 --- [main] c.javacoder.demo1.Demo1NameApplication   : No active profile set, falling back to default profiles: default
+2020-01-04 18:20:43.632  INFO 6664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 18:20:43.645  INFO 6664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 18:20:43.645  INFO 6664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 18:20:43.731  INFO 6664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 18:20:43.731  INFO 6664 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1320 ms
+2020-01-04 18:20:43.971  INFO 6664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 18:20:44.206  INFO 6664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 18:20:44.210  INFO 6664 --- [main] c.javacoder.demo1.Demo1NameApplication   : Started Demo1NameApplication in 2.649 seconds (JVM running for 3.213)
+2020-01-04 18:24:12.457  INFO 6664 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,248 @@
+ 2020-01-09 18:05:01.646  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:01.646 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:04.161  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:04.162 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:06.562  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:06.562 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:09.103  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:09.104 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:11.408  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:11.408 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:27.191  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:27.192 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:29.561  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:29.561 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:31.931  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:31.931 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:34.111  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:34.111 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:36.250  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:36.250 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:38.357  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:38.357 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:40.609  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:40.609 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:42.829  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:42.830 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:44.958  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:44.958 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:47.000  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:47.001 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:05:49.130  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:05:49.131 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:06:46.938  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:06:46.939 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:06:49.342  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:06:49.345 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:06:51.664  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:06:51.664 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:06:53.846  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:06:53.846 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:00.867  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:00.868 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:03.318  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:03.318 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:05.898  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:05.899 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:08.266  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:08.266 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:10.595  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:10.595 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:12.710  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:12.711 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:14.884  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:14.884 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:17.131  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:17.132 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:19.457  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:19.457 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:21.761  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:21.761 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:23.835  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:23.835 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:25.917  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:25.917 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:27.936  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:27.936 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:29.950  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:29.950 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:31.896  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:31.896 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:34.037  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:34.037 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:36.241  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:36.241 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:38.251  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:38.251 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:40.313  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:40.313 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:42.256  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:42.256 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:44.164  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:44.164 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:46.120  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:46.121 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:48.134  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:48.134 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:50.128  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:50.128 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:52.254  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:52.254 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:54.265  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:54.265 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:56.250  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:56.250 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:09:58.250  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:09:58.250 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:10:00.244  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:10:00.244 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:10:02.241  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:10:02.241 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:10:04.260  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:10:04.260 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:10:06.270  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:10:06.270 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:10:08.244  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:10:08.244 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:10:10.227  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:10:10.228 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:10:12.203  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:10:12.203 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:10:14.180  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:10:14.180 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:10:16.199  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:10:16.199 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:10:18.182  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:10:18.182 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:10:20.114  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:10:20.114 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:46:00.480  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:46:00.480 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:46:02.990  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:46:02.990 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:46:05.463  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:46:05.463 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:51:04.194  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:51:04.194 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:51:06.427  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:51:06.428 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:51:08.599  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:51:08.600 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:51:10.664  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:51:10.664 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:51:12.779  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:51:12.779 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:55:16.592  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:55:16.592 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:55:18.979  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:55:18.979 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:55:21.571  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:55:21.571 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:55:24.011  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:55:24.011 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:55:26.174  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:55:26.174 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:55:28.401  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:55:28.401 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:55:30.656  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:55:30.656 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:55:32.912  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:55:32.912 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:55:35.175  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:55:35.175 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:56:17.717  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:56:17.717 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:56:20.327  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:56:20.328 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:56:22.728  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:56:22.728 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:56:25.074  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:56:25.074 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:59:09.921  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:59:09.925 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:59:12.164  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:59:12.164 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:59:14.695  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:59:14.695 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:59:16.932  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:59:16.933 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:59:19.219  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:59:19.219 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 18:59:39.781  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 18:59:39.782 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:00:34.595  WARN --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Warn log message
+ 2020-01-09 19:00:34.596 ERROR --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Error log message
+ 2020-01-09 19:00:45.921  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:00:45.922 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:01:50.493  WARN --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Warn log message
+ 2020-01-09 19:01:50.493 ERROR --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Error log message
+ 2020-01-09 19:01:52.412  WARN --- [nio-8080-exec-2] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Warn log message
+ 2020-01-09 19:01:52.412 ERROR --- [nio-8080-exec-2] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Error log message
+ 2020-01-09 19:01:54.811  WARN --- [nio-8080-exec-3] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Warn log message
+ 2020-01-09 19:01:54.812 ERROR --- [nio-8080-exec-3] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Error log message
+ 2020-01-09 19:01:59.779  WARN --- [nio-8080-exec-4] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Warn log message
+ 2020-01-09 19:01:59.780 ERROR --- [nio-8080-exec-4] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Error log message
+ 2020-01-09 19:02:13.126  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:02:13.126 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:02:19.289  WARN --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Warn log message
+ 2020-01-09 19:02:19.289 ERROR --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Error log message
+ 2020-01-09 19:02:48.068  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:02:48.069 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:03:02.339  WARN --- [nio-8080-exec-2] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Warn log message
+ 2020-01-09 19:03:02.340 ERROR --- [nio-8080-exec-2] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Error log message
+ 2020-01-09 19:03:19.918  WARN --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Warn log message
+ 2020-01-09 19:03:19.918 ERROR --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Error log message
+ 2020-01-09 19:03:54.834  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:03:54.834 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:04:12.750  WARN --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Warn log message
+ 2020-01-09 19:04:12.750 ERROR --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Error log message
+ 2020-01-09 19:04:39.579  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:04:39.580 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:04:47.337  WARN --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Warn log message
+ 2020-01-09 19:04:47.337 ERROR --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Error log message
+ 2020-01-09 19:05:01.476  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:05:01.476 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:05:18.880  WARN --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Warn log message
+ 2020-01-09 19:05:18.880 ERROR --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Error log message
+ 2020-01-09 19:05:44.373  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:05:44.374 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:06:05.177  WARN --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Warn log message
+ 2020-01-09 19:06:05.177 ERROR --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Error log message
+ 2020-01-09 19:06:21.523  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:06:21.523 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:07:44.523  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:07:44.523 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:07:46.973  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:07:46.974 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:07:49.417  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:07:49.417 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:07:51.828  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:07:51.829 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:07:53.234  WARN --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Warn log message
+ 2020-01-09 19:07:53.234 ERROR --- [nio-8080-exec-1] c.j.d.BookController                     : ooooooooooooooooooooooooooo BBKKKKKK Book controller  Error log message
+ 2020-01-09 19:07:54.783  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:07:54.783 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:07:57.219  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:07:57.220 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:07:59.698  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:07:59.699 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:08:02.061  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:08:02.061 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:08:04.586  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:08:04.586 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:08:07.059  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:08:07.059 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:08:09.885  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:08:09.885 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:08:12.193  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:08:12.193 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:08:14.271  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:08:14.271 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:08:16.778  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:08:16.778 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:08:18.758  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:08:18.758 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:08:20.925  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:08:20.925 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message
+ 2020-01-09 19:08:23.158  WARN --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>>  in main():Warn log message
+ 2020-01-09 19:08:23.158 ERROR --- [  restartedMain] c.j.d.Demo1NameApplication               : >>>>>>>> in main():Error log message

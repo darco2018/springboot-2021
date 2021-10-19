@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The status logger is used internally by log4j2 components. Setting status="debug" (or "trace")
+     in the configuration will cause this internal logging to be output to the command line.
+     This is useful for troubleshooting configuration issue -->
+<Configuration status="warn">
+    <Appenders>
+        <Console name="ConsoleAppender">
+            <PatternLayout pattern=" %d{yyyy-MM-dd HH:mm:ss.SSS} %5p --- [%15.15t] %-40.40c{1.} : %m%n%ex"/>
+        </Console>
+        <File name="FileAppender" fileName="logs/app.log">
+            <PatternLayout pattern=" %d{yyyy-MM-dd HH:mm:ss.SSS} %5p --- [%15.15t] %-40.40c{1.} : %m%n%ex"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <!--  additivity=sharing: Shall I display in/share my logs with other appenders?  -->
+        <Logger name="cloud.javacoder.demo1" level="WARN" additivity="true">
+            <AppenderRef ref="FileAppender" />
+        </Logger>
+        <Root level="INFO">
+            <AppenderRef ref="ConsoleAppender"/>
+            <!--            <AppenderRef ref="FileAppender"/>-->
+        </Root>
+    </Loggers>
+    <!-- Enable an appender here. If you don't enable the Root logger, Spring will create
+    default ERROR-level Root logger with Console appender-->
+
+</Configuration>

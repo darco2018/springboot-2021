@@ -2,7 +2,7 @@
 *.directory
 *.git
 **/target
-**/mvnw.cmd
+**/mvnw*
 **/.mvn/**
 **/z-models
 /z-newmodels/

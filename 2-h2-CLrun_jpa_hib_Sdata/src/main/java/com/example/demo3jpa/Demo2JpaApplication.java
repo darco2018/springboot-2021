@@ -27,12 +27,15 @@ public class Demo2JpaApplication {
 		  //You just need to register them as Beans in the application context. Then, Spring will automatically pick them up.
 		
 
-		SpringApplication.run(Demo2JpaApplication.class, args);
+		SpringApplication.run(Demo2JpaApplication.class, args); // return a subclass of Application Context
 	}
 
 	// instead of using @Component on a class we can use @Bean for Spring to take care of the created instance
 	// this method returns the implementation of the interface CommandLineRunner's run()
 
+	// @Bean is also an annotation that Spring uses to gather beans at runtime, but it's not used at the class level.
+	// Rather, we annotate methods with @Bean
+	// test if bean created: assertNotNull(applicationContext.getBean(BeanExample.class));
 	@Bean
 	CommandLineRunner commandLineRunner() {
 		return args ->

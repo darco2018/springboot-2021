@@ -1,7 +1,6 @@
 package com.example.demo3jpa;
 
 import com.example.demo3jpa.entity.User;
-import com.example.demo3jpa.service.UserDAOService;
 import com.example.demo3jpa.service.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,7 +16,7 @@ import java.util.Optional;
 @Order(2)
 @Component // will be managed by Spring
 public class UserRepositoryCLRunner implements CommandLineRunner {
-    private static Logger logger = LoggerFactory.getLogger(UserRepositoryCLRunner.class);
+    private static final Logger logger = LoggerFactory.getLogger(UserRepositoryCLRunner.class);
     @Autowired
     private UserRepository userRepository;
 
@@ -44,6 +43,14 @@ public class UserRepositoryCLRunner implements CommandLineRunner {
         // operation 3: findAll --------------------------------------
         List<User> users = userRepository.findAll();
         users.forEach(u -> System.out.println("---------xyz----------> " + u));
+
+         /* shorter version of the above. Java knows that println must take 1 argument & it must be an item of the array
+
+        a "method reference" and it's a syntactic sugar for expressions like this:
+            numbers.forEach(x -> System.out.println(x));
+         the :: operator denotes you will be invoking the println method with a parameter,
+             which name you don't specify explicitly
+         */
         users.forEach(System.out::println);
     }
 }

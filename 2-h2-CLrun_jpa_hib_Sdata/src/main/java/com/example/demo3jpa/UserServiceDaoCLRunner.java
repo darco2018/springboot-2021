@@ -15,7 +15,7 @@ public class UserServiceDaoCLRunner implements CommandLineRunner {
     @Autowired
     private UserDAOService userDAOService;
 
-    private static Logger logger = LoggerFactory.getLogger(UserServiceDaoCLRunner.class);
+    private static final Logger logger = LoggerFactory.getLogger(UserServiceDaoCLRunner.class);
 
     @Override
     public void run(String... args)  {

@@ -5,13 +5,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Arrays;
 import java.util.List;
 
 @RestController
 public class BookController {
 
-    private static org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(BookController.class);
+    private static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(BookController.class);
 
     @Value("${spring.message}")
     private String message;
@@ -25,8 +24,8 @@ public class BookController {
         logger.info("ooooooooooooooooooooooooooo BBKKKKKK Book controller  Info log message");
         logger.warn("ooooooooooooooooooooooooooo BBKKKKKK Book controller  Warn log message");
         logger.error("ooooooooooooooooooooooooooo BBKKKKKK Book controller  Error log message");
-        return Arrays.asList(
-                new Book(1l, "Mastering Jas Spring 777", "John Browny")
+        return List.of(
+                new Book(1L, "Mastering Jas Spring 4445", "John Browny")
         );
     }
 

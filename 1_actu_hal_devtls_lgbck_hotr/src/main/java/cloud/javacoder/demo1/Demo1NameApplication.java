@@ -18,8 +18,7 @@ import org.springframework.context.ApplicationContext;
 @SpringBootApplication
 public class Demo1NameApplication {
 
-
-    private static org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(Demo1NameApplication.class);
+    private static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(Demo1NameApplication.class);
     //replace to log with log4j2:
     // private static org.apache.logging.log4j.Logger logger = org.apache.logging.log4j.LogManager.getLogger(Demo1NameApplication.class);
 
@@ -29,6 +28,7 @@ public class Demo1NameApplication {
 
         //	or just  ConfigurableApplicationContext
         ApplicationContext appContext = SpringApplication.run(Demo1NameApplication.class, args); // this.getClass()
+        appContext.getEnvironment().getActiveProfiles();
 
         System.out.printf("In Demo1 you will find: " +
                 "%n-logging with sl4j + logback, " +
@@ -103,6 +103,24 @@ public class Demo1NameApplication {
 
 
 		/* ------------------ DEV TOOLS - automatic restart & hot reload -------------------
+		Hot reload: when app is running, making a code change & pressing Ctrl + S will reflect the change in the browser(after a few seconds).
+		No need to refresh the browser.
+
+		Automatc restart enables to add a change without stopping the server.
+		When app is not running, making a code change, results in automatic rebuild.
+
+		These folders will not trigger reload by default:
+        /META-INF/maven
+        /META-INF/resources
+        /resources
+        /static
+        /public
+        /templates
+
+        You can configure additional folders to scan in application.properties:
+        spring.devtools.restart.additional-paths = /path-to-folder
+        You can also configure folders to exclude.
+                spring.devtools.restart.exclude=static/**,public/**
 
 		when run by calling .jar, they will not be loaded (production mode)
 

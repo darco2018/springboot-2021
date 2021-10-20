@@ -2,6 +2,8 @@
 *.directory
 *.git
 **/target
+**/mvnw
+**/mvn
 **/z-models
 /z-newmodels/
 
@@ -10,6 +12,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+
 
 ### STS ###
 .apt_generated

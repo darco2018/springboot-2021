@@ -4,12 +4,11 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.core.annotation.Order;
 
 import java.util.Arrays;
 
 @SpringBootApplication
-public class Demo3JpaApplication {
+public class Demo2JpaApplication {
 
 	// h2 at http://localhost:8080/h2-console
 	// JDBC URL:  jdbc:h2:mem:testdb
@@ -28,7 +27,7 @@ public class Demo3JpaApplication {
 		  //You just need to register them as Beans in the application context. Then, Spring will automatically pick them up.
 		
 
-		SpringApplication.run(Demo3JpaApplication.class, args);
+		SpringApplication.run(Demo2JpaApplication.class, args);
 	}
 
 	// instead of using @Component on a class we can use @Bean for Spring to take care of the created instance

@@ -2,8 +2,8 @@
 *.directory
 *.git
 **/target
-**/mvnw
-**/mvn
+**/mvnw.cmd
+**/.mvn/**
 **/z-models
 /z-newmodels/
 

@@ -14,9 +14,9 @@ public class TeacherLombok {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO) //default anyway
     private long id;
+
     @NonNull private String name;
     @NonNull private String pictureURL;
     @NonNull private String email;
-
 
 }

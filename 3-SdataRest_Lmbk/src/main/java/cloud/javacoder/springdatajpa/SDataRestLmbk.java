@@ -5,20 +5,21 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /* this app shows
- - Spring Data
+ - Spring Data REST (spring-boot-starter-data-rest) to expose repositories as REST
  - lombok
  - dataFiller class as Service rather than CommandLinerRunner
+
+ spring-boot-starter-data-rest makes automatically endpoints for Teacher & Course.
+ In browser we can make GET requests but with HAL Explorer or Postman we can make POST, DELETE, PUT
+  probably
  */
-
-// Just add spring-boot-starter-data-rest to expose repositories as REST
-
 
 @SpringBootApplication
 @EnableTransactionManagement // needed for transactions outside repository, eg in DataFiller
-public class SpringdatajpaApplication {
+public class SDataRestLmbk {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringdatajpaApplication.class);
+		SpringApplication.run(SDataRestLmbk.class);
 	}
 
 }

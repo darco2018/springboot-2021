@@ -9,13 +9,13 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ust</groupId>
-	<artifactId>jpa-learn</artifactId>
+	<artifactId>4_h2_Sdata-jpa_datasql</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>4_h2_jpa_hib_Sdata</name>
+	<name>4_h2_Sdata-jpa_datasql</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>

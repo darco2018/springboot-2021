@@ -10,11 +10,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class Application {
+public class App4SdataJpaData {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(App4SdataJpaData.class, args);
 
 	// PROBLEM: can't use Book Service here to print books from H2 because BookRepository is not injected into Book Service.
 		// and if I try to use here BookRepository I can't inject into main as @Autowired can't be used on static fields

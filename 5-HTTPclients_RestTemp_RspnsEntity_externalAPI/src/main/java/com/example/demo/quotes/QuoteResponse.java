@@ -10,31 +10,21 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties( ignoreUnknown = true)
 public class QuoteResponse {
 
-    /**
-     * The success or failure status of the API call.
-     */
+   //The success or failure status of the API call.
     private QuoteResponseSuccess success;
-    /**
-     * The body of the API call response.
-     */
+
+    //The body of the API call response.
     private QuoteResponseContents contents;
 
     public QuoteResponse() { }
 
-    public QuoteResponseSuccess getSuccess() {
-        return success;
-    }
-
-    public void setSuccess(QuoteResponseSuccess success) {
-        this.success = success;
-    }
+    public QuoteResponseSuccess getSuccess() { return success; }
+    public void setSuccess(QuoteResponseSuccess success) { this.success = success; }
 
     /**
      * A helper method which examines the internal value of the
      * QuoteResponseSuccess object and returns a boolean indicating the success
      * or failure of the API call.
-     * @return A boolean whose value is <code>true</code> if the API call was
-     *         successful, otherwise returns <code>false</code>.
      */
     public boolean isSuccess() {
         if (success != null && success.getTotal() > 0) {
@@ -47,8 +37,6 @@ public class QuoteResponse {
     public QuoteResponseContents getContents() {
         return contents;
     }
-
-
     public void setContents(QuoteResponseContents contents) {
         this.contents = contents;
     }

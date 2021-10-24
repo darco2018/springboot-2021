@@ -21,17 +21,15 @@ public class QuoteController {
     protected Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
-    private QuoteService quoteService;
+    private QuoteService quoteService; // will return a quote from API
 
-    @RequestMapping(
-            value = "/api/quotes/daily",
-            method = RequestMethod.GET,
-            produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/api/quotes/daily", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Quote> getQuoteOfTheDay() {
-        logger.info(">>> getQuoteOfTheDay");
-
+        logger.info(">>>CONTROLLER: quoteService.getDaily()");
         Quote quote = quoteService.getDaily(QuoteService.CATEGORY_INSPIRATIONAL);
 
+        logger.info(">>>CONTROLLER: analyze the API response & decide what the response from the HTTP client will be " +
+                "by creating a ResponseEntity<Quote> with a quote in body & O status, or 404 status");
         if (quote == null) {
             return new ResponseEntity<Quote>(HttpStatus.NOT_FOUND); // returns an empty response body with HTTP status 404
         }

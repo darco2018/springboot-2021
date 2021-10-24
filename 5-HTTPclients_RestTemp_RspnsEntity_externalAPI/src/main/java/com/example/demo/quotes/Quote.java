@@ -5,12 +5,32 @@ import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+ /* json of the only element of quotes key:
+ {
+    quote: "Climb the mountains and get their good tidings. Nature's peace will flow into you as sunshine flows into trees. The winds will blow their own freshness into you, and the storms their energy, while cares will drop away from you like the leaves of Autumn.",
+    length: "253",
+    author: "John Muir",
+    tags: [
+    "autumn",
+    "inspire",
+    "life",
+    "mountaineering",
+    "peace"
+    ],
+    category: "inspire",
+    language: "en",
+    date: "2021-10-24",
+    permalink: "https://theysaidso.com/quote/john-muir-climb-the-mountains-and-get-their-good-tidings-natures-peace-will-flow",
+    id: "AplDeYJXEVuZ8_Qsl4d7QweF",
+    background: "https://theysaidso.com/img/qod/qod-inspire.jpg",
+    title: "Inspiring Quote of the day"
+    }*/
 
 @JsonIgnoreProperties( ignoreUnknown = true)
 public class Quote {
 
     private String id;
-    private String quote;
+    private String quote = "No quote by default";
     private String length;
     private String author;
     private ArrayList<String> tags;

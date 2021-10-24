@@ -15,7 +15,8 @@ public class QuoteServiceImpl implements QuoteService {
     private final RestTemplate restTemplate;
     private static final String QUOTE_API_BASE_URL = "http://quotes.rest/qod.json";
 
-    // builder created and injected automatically by spring - where is builder bean created?!
+    // the default RestTemplateBuilder bean  created and injected automatically by Spring Boot, its scope limited to
+    //     the class in which we build it.
     // Why not use @Autowired on the RestTemplate filed above and inject the @Bean from main()?!
     public QuoteServiceImpl(RestTemplateBuilder restTemplateBuilder) {
         this.restTemplate = restTemplateBuilder.build();

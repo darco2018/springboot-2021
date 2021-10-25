@@ -1,6 +1,6 @@
-package cld.jcoder.demo.e1;
+package cld.jcoder.demo.repo;
 
-import cld.jcoder.demo.e1.GithubProject;
+import cld.jcoder.demo.domain.GithubProject;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 public interface GithubProjectRepository extends PagingAndSortingRepository<GithubProject, Long> {

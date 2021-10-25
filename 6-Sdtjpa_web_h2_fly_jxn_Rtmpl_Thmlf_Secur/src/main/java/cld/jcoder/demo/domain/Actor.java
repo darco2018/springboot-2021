@@ -1,4 +1,4 @@
-package cld.jcoder.demo.github;
+package cld.jcoder.demo.domain;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

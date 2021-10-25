@@ -1,7 +1,7 @@
-package cld.jcoder.demo.events;
+package cld.jcoder.demo;
 
-import cld.jcoder.demo.github.GithubClient;
-import cld.jcoder.demo.github.GithubRepoEvent;
+import cld.jcoder.demo.service.GithubClient;
+import cld.jcoder.demo.domain.GithubRepoEvent;
 
 import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;

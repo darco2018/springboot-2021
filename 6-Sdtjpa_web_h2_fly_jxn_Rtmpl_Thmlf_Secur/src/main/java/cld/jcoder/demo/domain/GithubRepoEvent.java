@@ -1,4 +1,4 @@
-package cld.jcoder.demo.github;
+package cld.jcoder.demo.domain;
 
 import  java.time.OffsetDateTime;
 

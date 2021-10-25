@@ -1,6 +1,4 @@
-package cld.jcoder.demo.e1;
-
-import cld.jcoder.demo.github.GithubRepoEvent;
+package cld.jcoder.demo.domain;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package cld.jcoder.demo.e1;
+package cld.jcoder.demo.domain;
 
 import java.io.Serializable;
 

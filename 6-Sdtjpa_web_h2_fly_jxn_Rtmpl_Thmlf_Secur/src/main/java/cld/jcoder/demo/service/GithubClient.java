@@ -1,4 +1,4 @@
-package cld.jcoder.demo.github;
+package cld.jcoder.demo.service;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import cld.jcoder.demo.GithubProperties;
+import cld.jcoder.demo.domain.GithubRepoEvent;
 import io.micrometer.core.instrument.MeterRegistry;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.cache.annotation.Cacheable;

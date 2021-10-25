@@ -1,4 +1,4 @@
-package cld.jcoder.demo;
+package cld.jcoder.demo.security;
 
 import org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest;
 import org.springframework.boot.autoconfigure.security.servlet.PathRequest;

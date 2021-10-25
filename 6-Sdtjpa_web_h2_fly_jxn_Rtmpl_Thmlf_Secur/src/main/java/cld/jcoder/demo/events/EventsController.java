@@ -5,8 +5,11 @@ import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
 
+import cld.jcoder.demo.e1.DashboardEntry;
+import cld.jcoder.demo.e1.GithubProject;
+import cld.jcoder.demo.e1.GithubProjectRepository;
 import cld.jcoder.demo.github.GithubClient;
-import cld.jcoder.demo.github.RepositoryEvent;
+import cld.jcoder.demo.github.GithubRepoEvent;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -30,10 +33,10 @@ public class EventsController {
     @ResponseBody
     // the object returned is automatically serialized into JSON and passed back into the HttpResponse object.
     // @RestController has this anno
-    public RepositoryEvent[] fetchEvents(@PathVariable String projectName) {
+    public GithubRepoEvent[] fetchEvents(@PathVariable String projectName) {
 
         GithubProject project = this.repository.findByRepoName(projectName);
-        ResponseEntity<RepositoryEvent[]> response = this.githubClient.fetchEvents(project.getOrgName(), project.getRepoName());
+        ResponseEntity<GithubRepoEvent[]> response = this.githubClient.fetchEvents(project.getOrgName(), project.getRepoName());
         return response.getBody();
     }
 

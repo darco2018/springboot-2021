@@ -23,7 +23,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Component
 public class GithubClient {
-
+                               // eg https://api.github.com/repos/spring-io/sagan/issues/events returns json
     private static final String EVENT_ISSUES_URL = "https://api.github.com/repos/{owner}/{repo}/issues/events";
     private final RestTemplate restTemplate;
 
@@ -35,17 +35,21 @@ public class GithubClient {
                 .build();
     }
 
-    public ResponseEntity<RepositoryEvent[]> fetchEvents(String orgName, String repoName) {
+    // fetch events for this user and this repo
+    public ResponseEntity<GithubRepoEvent[]> fetchEvents(String orgName, String repoName) {
         System.out.println(EVENT_ISSUES_URL + ", " + orgName + ", " + repoName);
-        return this.restTemplate.getForEntity(EVENT_ISSUES_URL, RepositoryEvent[].class, orgName, repoName);
+        ResponseEntity<GithubRepoEvent[]> events = this.restTemplate.getForEntity(EVENT_ISSUES_URL,
+                GithubRepoEvent[].class, orgName, repoName); // return array of events
+        return events;
     }
 
-    @Cacheable("events")
-    public List<RepositoryEvent> fetchEventsList(String orgName, String repoName) {
-        return Arrays.asList(fetchEvents(orgName, repoName).getBody());
+    @Cacheable("events") // method same as above but will return List rather than ResponseEntity with array, so less
+    // info from the response will be available, eg we won't be able to use now getStatus(), getHeaders() etc.
+    public List<GithubRepoEvent> fetchEventsList(String orgName, String repoName) {
+        return Arrays.asList(fetchEvents(orgName, repoName).getBody());// returns the body of ResponseEntity<GithubRepoEvent[]> as List
     }
 
-
+/////////////////////// non-essential methods ////////////////////////////////////////
     // adds the value of token (set in app.prop) in a request
     private static class GithubAppTokenInterceptor implements ClientHttpRequestInterceptor {
         private final String token;

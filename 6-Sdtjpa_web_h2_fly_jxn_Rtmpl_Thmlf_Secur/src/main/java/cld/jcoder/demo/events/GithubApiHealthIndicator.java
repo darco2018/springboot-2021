@@ -1,7 +1,7 @@
 package cld.jcoder.demo.events;
 
 import cld.jcoder.demo.github.GithubClient;
-import cld.jcoder.demo.github.RepositoryEvent;
+import cld.jcoder.demo.github.GithubRepoEvent;
 
 import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;
@@ -21,7 +21,7 @@ public class GithubApiHealthIndicator implements HealthIndicator {
     @Override
     public Health health() {
         try {
-            ResponseEntity<RepositoryEvent[]> responseEntity = githubClient
+            ResponseEntity<GithubRepoEvent[]> responseEntity = githubClient
                     .fetchEvents("spring-projects", "spring-boot");
             if (responseEntity.getStatusCode().is2xxSuccessful()) {
                 return Health.up()

@@ -4,6 +4,12 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Issue {
+/*issue: {
+            html_url: "https://github.com/spring-io/sagan/pull/1040",
+            number: 1040,
+            title: "Use tanzu security page"
+
+   }         */
 
     private final String htmlUrl;
     private final int number;

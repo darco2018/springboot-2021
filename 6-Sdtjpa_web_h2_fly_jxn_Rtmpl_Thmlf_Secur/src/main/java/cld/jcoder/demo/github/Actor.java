@@ -4,7 +4,12 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Actor {
+    /*actor: {
+        login: "rwinch",
+        avatar_url: "https://avatars.githubusercontent.com/u/362503?v=4",
+        html_url: "https://github.com/rwinch",
 
+     }*/
     private final String login;
     private final String avatarUrl;
     private final String htmlUrl;

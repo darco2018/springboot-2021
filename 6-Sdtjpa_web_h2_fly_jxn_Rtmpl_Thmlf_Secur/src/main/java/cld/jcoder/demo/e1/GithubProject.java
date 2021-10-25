@@ -1,4 +1,4 @@
-package cld.jcoder.demo.events;
+package cld.jcoder.demo.e1;
 
 import java.io.Serializable;
 
@@ -15,10 +15,10 @@ public class GithubProject implements Serializable {
     @GeneratedValue
     private Long id;
 
-    private String orgName;
+    private String orgName; // org_name VARCHAR(50), in sql
 
     @Column(unique = true)
-    private String repoName;
+    private String repoName; // repo_name VARCHAR(50) in sql
 
     public GithubProject() {
     }
@@ -35,7 +35,6 @@ public class GithubProject implements Serializable {
     public String getOrgName() {
         return orgName;
     }
-
     public void setOrgName(String orgName) {
         this.orgName = orgName;
     }
@@ -43,7 +42,6 @@ public class GithubProject implements Serializable {
     public String getRepoName() {
         return repoName;
     }
-
     public void setRepoName(String repoName) {
         this.repoName = repoName;
     }

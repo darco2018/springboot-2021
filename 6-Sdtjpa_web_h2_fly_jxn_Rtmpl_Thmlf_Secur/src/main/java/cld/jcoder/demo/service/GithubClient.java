@@ -27,7 +27,7 @@ public class GithubClient {
                                // eg https://api.github.com/repos/spring-io/sagan/issues/events returns json
     private static final String EVENT_ISSUES_URL = "https://api.github.com/repos/{owner}/{repo}/issues/events";
     private final RestTemplate restTemplate;
-
+                       // builder injected by Spring
     public GithubClient(RestTemplateBuilder builder, GithubProperties properties, MeterRegistry meterRegistry) {
 
         this.restTemplate = builder
@@ -36,9 +36,10 @@ public class GithubClient {
                 .build();
     }
 
-    // fetch events for this user and this repo
+    // fetch events for this user's repo
     public ResponseEntity<GithubRepoEvent[]> fetchEvents(String orgName, String repoName) {
         System.out.println(EVENT_ISSUES_URL + ", " + orgName + ", " + repoName);
+
         ResponseEntity<GithubRepoEvent[]> events = this.restTemplate.getForEntity(EVENT_ISSUES_URL,
                 GithubRepoEvent[].class, orgName, repoName); // return array of events
         return events;

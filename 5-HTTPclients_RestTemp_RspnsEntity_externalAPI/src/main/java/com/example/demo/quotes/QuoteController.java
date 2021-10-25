@@ -27,13 +27,16 @@ public class QuoteController {
     public ResponseEntity<Quote> getQuoteOfTheDay() {
         logger.info(">>>CONTROLLER: quoteService.getDaily(). " +
                 "Received call on api/quotes/daily. And will call http://quotes.rest/qod.json for a quote json");
+
         Quote quote = quoteService.getDaily(QuoteService.CATEGORY_INSPIRATIONAL);
 
         logger.info(">>>CONTROLLER: analyze the API response & decide what the response from the HTTP client will be " +
                 "by creating a ResponseEntity<Quote> with a quote in body & OK status, or 404 status");
+
         if (quote == null) {
             return new ResponseEntity<Quote>(HttpStatus.NOT_FOUND); // returns an empty response body with HTTP status 404
         }
+
         logger.info("<<< getQuoteOfTheDay"); // Quote object is marshalled into JSON
         return new ResponseEntity<Quote>(quote, HttpStatus.OK); // returned as JSON with HTTP status 200
     }

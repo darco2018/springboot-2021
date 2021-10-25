@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /*specialization of @Component. Used in combination with annotated handler methods based on the @RequestMapping annotation*/
 public class EventsController {
 
-    private final GithubClient githubClient;
+    private final GithubClient githubClient; // service
     private final GithubProjectRepository repository;
 
     public EventsController(GithubClient githubClient, GithubProjectRepository repository) {

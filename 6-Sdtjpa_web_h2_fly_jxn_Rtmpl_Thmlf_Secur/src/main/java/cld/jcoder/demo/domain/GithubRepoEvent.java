@@ -85,7 +85,7 @@ performed_via_github_app: null
         BASE_REF_FORCE_PUSHED("base_ref_force_pushed"),
         REVIEW_REQUEST_REMOVED("review_request_removed");
 
-        private String type;
+        private final String type;
 
         Type(String type) {
             this.type = type;

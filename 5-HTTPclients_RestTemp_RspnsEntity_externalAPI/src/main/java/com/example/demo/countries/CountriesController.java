@@ -21,10 +21,10 @@ public class CountriesController {
     public List<Object> getCountries(){
         List<Object> list = null;
         try {
-            URL countriesUrl = new URL("https://restcountries.eu/rest/v2/all");
+            URL countriesUrl = new URL("https://restcountries.com/v3.1/all");
             Object[] countries =  restTemplate.getForObject(countriesUrl.toURI(), Object[].class);
-            System.out.println(Arrays.toString(countries));
-            System.out.println(countries[0]);
+            //System.out.println(Arrays.toString(countries));
+            System.out.println(">>>>> Country from Object[] countries" + countries[0]);
 
             // cannot cast List<Object> to List<String>
             //List<String> list = (List<String>) Arrays.asList(countries);
@@ -32,7 +32,8 @@ public class CountriesController {
            // list.add(new Object(list.size()));
 
             String countriesAsString =  restTemplate.getForObject(countriesUrl.toURI(), String.class);
-            System.out.println(countriesAsString);
+            //System.out.println(countriesAsString);
+            System.out.println("******* Coutry from String countriesAsString" + countriesAsString.substring(0,200));
             System.out.println("Retrieved countries: " + list.size());
         } catch (MalformedURLException | URISyntaxException e) {
             e.printStackTrace();

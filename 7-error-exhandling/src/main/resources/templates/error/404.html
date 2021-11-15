@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>resources/templates/error/404.html</h1>
+
+<p>I am displayed because none of YOUR CUSTOM handlers has handled status code 404<br>
+    so Spring called HttpServletResponse.sendError()</p>
+
+<p>You can see this page for http://localhost:8080/ which will provoke Http code 404.<br>
+    As no handler is set by me, Spring looks in resources/templates/error/ <br>
+    to find an error page error.html but preferring code-specific pages first, eg
+    404.html, 500.html, etc.</p>
+
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>resources/templates/error.html</h1>
+<h2>Here we catch non-404 errors</h2>
+
+<p>I am displayed because none of YOUR CUSTOM handlers has handled this status code<br>
+    so Spring called HttpServletResponse.sendError()</p>
+
+<p> Go to localhost:8080/onlyput in browser to provoke METHOD NOT ALLOWED(405)</p>
+
+<p>When no MY handler is specified to handle it, Spring calls HttpServletResponse.sendError(), which <br>
+    looks for the right HTML page in /resources/templates folder. It first looks for the most specific error code page,
+    eg<br>
+    templates/error/404, or templates/error/500, etc. If no such, it sends templates/error.html</p>
+
+<p>If you want to see this page displayed in console provoke METHOD NOT ALLOWED(405) like this:<br>
+    curl -X PATCH localhost:8080/users/1 -> displays HttpServletResponse.sendError()'s json (maybe this is curl's
+    default Accept header.<br>
+    HttpRequestMethodNotSupportedException: Request method 'PATCH' not supported]<br>
+    curl -X PATCH localhost:8080/users/1 -H 'Accept: text/html' -> displays this page<br>
+<p>
+<p>
+    curl -v localhost:8080/users/12 -H 'Accept: text/html' ERROR CODE: 406 NON ACCEPTABLE(The client has requested<br>
+    a response using Accept-headers that the server is unable to fulfill. Because users are returned in JSON, not html)<br>
+    HttpMediaTypeNotAcceptableException: Could not find acceptable representation]. App has no chance even to check if
+    such user exists.
+</p>
+
+
+</body>
+</html>

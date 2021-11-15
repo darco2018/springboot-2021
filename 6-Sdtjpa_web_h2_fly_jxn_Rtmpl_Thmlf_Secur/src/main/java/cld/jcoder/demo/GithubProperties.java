@@ -18,8 +18,11 @@ Therefore, there is no need to annotate such classes with @Component (and other 
 		The jar includes a Java annotation processor which is invoked as your project is compiled.
  */
 
-// http://localhost:8080/actuator/env/github.token : password or token will not be exposed by value but by *****
+//go to http://localhost:8080/actuator/env/github.token : password or token will not be exposed by value but by *****
 
+/*custom property added in application.properties (github.token=username:somevalue),
+@Validated by @Pattern(in GithubProperties.java) and sent with each call to Github API and visible at actuator/env/github.token
+*/
 @ConfigurationProperties("github") // github namespace of the application (package ?!)
 @Validated // makes validation for the pattern below. If not valid, you'll see it in the console
 public class GithubProperties {

@@ -92,6 +92,9 @@
 
 
         <!--///////////////////// VIEW /////////////////////-->
+          <!--WebJars are client-side web libraries (e.g. jQuery & Bootstrap) packaged into JAR
+         https://www.webjars.org/ -->
+        <!--NPM WebJars: Contents mirror NPM package, ArtifactId: NPM Package or URL-based Name-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -1,17 +1,17 @@
 package cld.jcoder.demo.domain;
 
-import  java.time.OffsetDateTime;
-
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
+import java.time.OffsetDateTime;
 
 // models the GUI on http://localhost:8080/ dashboard.html
 public class GithubRepoEvent {
 
-    private final Type type; // 'Action' on dashboard.html // it is an enum
-    private final OffsetDateTime creationTime;
     private final Actor actor;
+    private final Type type; // 'Action' on dashboard.html // it is an enum
     private final Issue issue;
+    private final OffsetDateTime creationTime;
 
     // @JsonCreator over the construcotr + @JsonProperty gives control over the unmarshalling process
     @JsonCreator //to deserialize some JSON that doesn't exactly match the target entity
@@ -56,7 +56,8 @@ performed_via_github_app: null
     public Issue getIssue() {
         return issue;
     }
-//////////////////////////// enum ////////////////////////
+
+    //////////////////////////// enum ////////////////////////
     public enum Type {
 
         CLOSED("closed"),
@@ -83,7 +84,8 @@ performed_via_github_app: null
         REVIEW_REQUESTED("review_requested"),
         HEAD_REF_FORCE_PUSHED("head_ref_force_pushed"),
         BASE_REF_FORCE_PUSHED("base_ref_force_pushed"),
-        REVIEW_REQUEST_REMOVED("review_request_removed");
+        REVIEW_REQUEST_REMOVED("review_request_removed"),
+        CONVERT_TO_DRAFT("convert_to_draft");
 
         private final String type;
 
@@ -98,7 +100,7 @@ performed_via_github_app: null
                 }
             }
             throw new IllegalArgumentException(
-                    "'" + type + "' is not a valid event type");
+                    "'" + type + "' is not a valid event type. Probably, you will have to add a new enum in GithubRepoEvent");
         }
     }
 

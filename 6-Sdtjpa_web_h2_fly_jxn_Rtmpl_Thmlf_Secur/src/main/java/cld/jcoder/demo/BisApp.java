@@ -33,7 +33,7 @@ public class BisApp {
 	}
 }
 
-// BASED on From Zero To Hero With Spring Boot - Brain Clozel
+// BASED on From Zero To Hero With Spring Boot - Brain Clozel https://www.youtube.com/watch?v=aA4tfBGY6jY&t=14s
 
 /* EXAMPLE of
   - H2 + SpringDataJPA + Web + Actuator + Devtools

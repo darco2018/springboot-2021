@@ -9,10 +9,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 
 @Component
-// creating our own health endpoint
+// creating our own health endpoint: shows remaining Github API calls/hour limit;
+// default is 60 - you can increase it with a token
 public class GithubApiHealthIndicator implements HealthIndicator {
 
     private final GithubClient githubClient;
+
 
     public GithubApiHealthIndicator(GithubClient githubClient) {
         this.githubClient = githubClient;

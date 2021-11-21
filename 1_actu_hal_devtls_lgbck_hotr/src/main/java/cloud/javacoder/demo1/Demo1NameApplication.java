@@ -103,7 +103,9 @@ public class Demo1NameApplication {
 
 
 		/* ------------------ DEV TOOLS - automatic restart & hot reload -------------------
-		Hot reload: when app is running, making a code change & pressing Ctrl + S will reflect the change in the browser(after a few seconds).
+		NOTE: it may be necessary to dispable Idea's built-in server at localhost:63342. In Settings/Web Browsers and Preview
+		
+		Hot reload: when app is running, making a code change & pressing Ctrl + S will reflect the change in the browser(after a few about 4, seconds).
 		No need to refresh the browser.
 
 		Automatc restart enables to add a change without stopping the server.
@@ -112,7 +114,7 @@ public class Demo1NameApplication {
 		These folders will not trigger reload by default:
         /META-INF/maven
         /META-INF/resources
-        /resources
+        /resources         -> actually, somehow it is reflected without adding extra paths in application properties
         /static
         /public
         /templates
@@ -127,7 +129,8 @@ public class Demo1NameApplication {
 		  -DOESNT WORK IN FIREFOX
 		  - These conditions must be met:
 			1. LIVE RELOAD extension enabled in Browser!!!! (you can find it in Chrome Dev Tools >> Network
-			2. Settings: turn on: Build project automatically (only works when not running or debugging)
+			2. Settings: turn on: Build project automatically (only works when not running or debugging) 
+			  Important to turn it on just for Hot reload, not just for automatic restart
 			3. REGISTRY: compiler.automake.allow.when.app.running=true (may eventually delete some classes that are required by the application.)
 
 			Trying to reload browser with BUILD (CTRL + 9 - incremental build) in Idea (rather than CTrl + Save) will sometimes result in WHitelabel error
